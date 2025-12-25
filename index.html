@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <script type="module" crossorigin src="/assets/index-D_be20B0.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-YCsSoefq.css">
+</head>
+<body>
+    <div class="topSegment">
+    <nav>
+        <ul class = 'sidebar'>
+            <li onclick=hideSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#">Electronica</a></li>
+            <li><a href="#">Games</a></li>
+            <li><a href="#">Description</a></li>
+            <li><a href="#">Specs</a></li>
+            <li><a href="#">Support</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Electronica</a></li>
+            <li class="hideOnMobile"><a href="#">Games</a></li>
+            <li class="hideOnMobile"><a href="#">Description</a></li>
+            <li class="hideOnMobile"><a href="#">Specs</a></li>
+            <li class="hideOnMobile"><a href="#">Support</a></li>
+            <li class="menuButton" onclick=showSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+            </li>
+            
+        </ul>
+    </nav>
+    
+    <canvas id="c">
+    </canvas>
+    </div>
+    <div class="content">
+        <h1>INTRODUCING THE ELECTRONICA "ЭИМ-4" HANDHELD GAMING SYSTEM!</h1>
+        <h2>THE FUTURE OF PORTABLE PLAY HAS HATCHED!</h2>
+        <p>Tired of bulky, boring game watches? Say goodbye to flickery LCDs and hello to real video game action—anywhere you go!<br>
+        The "ЭИМ-4" Electronica’s boldest innovation yet: a sleek, egg-shaped handheld packed with full-color graphics, crisp sound, and addictive gameplay that fits right in your jacket pocket!</p>
+    </div>
+    <div class="media">
+        <video src="/assets/doc_2025-12-24_23-43-58-Bwh9H-N1.mp4" alt="Video of rotating console" autoplay loop></video>
+        <div>
+            <p>“It’s like carrying a mini arcade in your backpack!”<br>
+                — Tech Toy Monthly, October 1987</p>
+        </div>
+    </div>
+    <div class="bottomSection">
+    <div class="features">
+        <ul>
+            <li> Vibrant 2.5” Full-Color Screen – Finally, portable games in red, blue, green, and yellow! (No more gray blobs!)</li>
+            <li> Ergonomic design – Fits perfectly in your hands for hours of play!</li>
+            <li> Built-In Stereo Speaker – Hear every beep, boop, and explosion in glorious mono (stereo headphones sold separately)!</li>
+            <li> Auto Power-Saver – Game pauses when you stop playing! (Batteries not included—but uses standard AA!)</li>
+            <li> Real D-Pad + Action Buttons – Just like your NES at home!</li>
+        </ul>
+    </div>
+    <div class="photos">
+        <img src="/assets/Photo1-Dgrrh11P.png" alt="console">
+    </div>
+    <div class="specs">
+        <ul>
+            <li>Display: 160 × 144 pixel full-color LCD</li>
+            <li>Sound: 3-channel PSG (Programmable Sound Generator)</li>
+            <li>Power: 2 × AA batteries (up to 8 hours play!)</li>
+            <li>Dimensions: 4.2” × 2.8” × 1.1”</li>
+            <li>Weight: Just 6.4 oz!</li>
+            <li>Cartridge port: 24-pin secure lock</li>
+        </ul>
+    </div>
+    <div class="bottomLine">
+        <p>Don’t just play games—HATCH AN ADVENTURE!</p>
+        <p>Look for the "ЭИМ-4" logo at your local toy store, electronics shop, or department store counter today!</p>
+        <p>"Электроника" brings the arcade experience home… and now, to your pocket!"</p>
+        <p>© 1987 Электроника Co., Ltd. <br> ЭИМ-4 and Ну-погоди! are trademarks of Электроника.</p>
+    </div>
+    </div>
+    <script>
+        function showSideBar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSideBar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display='none'
+        }
+    </script>
+</body>
+</html>
